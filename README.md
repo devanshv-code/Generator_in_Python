@@ -1,7 +1,7 @@
 # Generator_in_Python
 
 A generator in Python is a function that uses the yield keyword to produce a sequence of values one at a time, pausing between each. It is memory-efficient because it generates items on the fly, rather than storing the entire sequence in memory.
-## Primarily types of generators
+## Primary types of generators
 Generator Functions
 
 
@@ -19,3 +19,19 @@ Saves Memory: Generators don’t store all values in memory. They are created on
 Lazy Evaluation: They generate values only when requested, which can make programs faster and more responsive.
 
 So, generators help in writing efficient code that’s both memory and performance-friendly.
+## Generator Expressions
+These are similar to list comprehensions but with parentheses instead of brackets. They create generators in a single line, producing values on-the-fly without storing the entire sequence in memory.
+### Key Difference:
+
+The list comprehension creates a full list in memory.
+
+The generator expression creates a generator, which yields one square at a time, without storing them all in memory.
+
+## When to Use Generators:
+
+When working with large datasets or streams of data.
+
+When you need to save memory.
+
+When you want to work with infinite sequences or pipelines.
+
